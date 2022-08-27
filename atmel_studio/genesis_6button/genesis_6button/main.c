@@ -85,7 +85,7 @@ static inline bool th_low(void)
 	return (0 == (VPORTA_IN & _BV(1)));
 }
 
-// Wait 1 microsecond
+// Wait 0.6 microsecond
 static inline void th_wait(void)
 {
 	asm("nop");
@@ -150,29 +150,26 @@ int main(void)
 		}
 
 		th_wait_for_low();
-		if (timeout)
-		{
-			continue;
-		}
-
 		// Recognition cycle
 		pins_low();
+		// Check for timeout *after* changing pins.
+		// that way we don't end up stuck waiting with
+		// pins in the wrong configuration.
+
+		if (timeout)
+		{
+			continue;
+		}
 
 		th_wait_for_high();
-		if (timeout)
-		{
-			continue;
-		}
-		
 		// XYZ cycle
 		pins_xyz();
-
-		th_wait_for_low();
 		if (timeout)
 		{
 			continue;
 		}
 
+		th_wait_for_low();
 		// Technically undefined here, but some software
 		// expects us to output high.
 		pins_high();
