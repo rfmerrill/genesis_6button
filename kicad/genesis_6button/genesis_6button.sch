@@ -944,10 +944,10 @@ Connection ~ 10150 2000
 Wire Wire Line
 	10150 2000 10150 2100
 $Comp
-L Mechanical:MountingHole H?
+L Mechanical:MountingHole H1
 U 1 1 630E5D91
 P 2300 6550
-F 0 "H?" H 2400 6596 50  0000 L CNN
+F 0 "H1" H 2400 6596 50  0000 L CNN
 F 1 "MountingHole" H 2400 6505 50  0000 L CNN
 F 2 "MountingHole:MountingHole_5.3mm_M5" H 2300 6550 50  0001 C CNN
 F 3 "~" H 2300 6550 50  0001 C CNN
