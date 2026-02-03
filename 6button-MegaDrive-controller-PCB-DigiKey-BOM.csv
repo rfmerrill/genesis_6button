@@ -1,0 +1,8 @@
+Digi-Key Part Number,Quantity,Reference,Value,Manufacturer,Manufacturer Product Number,Description,Datasheet
+478-KGM21NR71H104KTCT-ND,10,"C1,C2,C3",0.1u,KYOCERA AVX,KGM21NR71H104KT,CAP CER 0.1UF 50V X7R 0805 – Only 3 needed but cheaper to buy 10 than 3,~
+A122908-ND,1,J1,CONN HEADER VERT 14POS 2.54MM,TE Connectivity AMP Connectors,826632-7,"Connector Header Through Hole 14 position 0.100"" (2.54mm)",~
+2057-PH1-09-UA-ND,1,J2,CONN HEADER VERT 9POS 2.54MM,Adam Tech,PH1-09-UA,"Connector Header Through Hole 9 position 0.100"" (2.54mm)",~
+2057-BHR-06-VUA-ND,1,J3,CONN HEADER VERT 6POS 2.54MM,Adam Tech,BHR-06-VUA,"Connector Header Through Hole 6 position 0.100"" (2.54mm)",~
+A102341CT-ND,12,"R1,R2,R3,R4,R5,R6,R7,R8,R9,R10,R11,R12",75k,TE Connectivity Passive Product,CPF0805B75KE1,"75 kOhms ±0.1% 0.1W, 1/10W Chip Resistor 0805 (2012 Metric) Thin Film",~
+296-CD74HC257M96CT-ND,2,"U1,U3",74HC257,Texas Instruments,CD74HC257M96,Multiplexer 4 x 2:1 16-SOIC,http://www.ti.com/lit/gpn/sn74LS257
+ATTINY404-SSNRCT-ND,1,U2,ATTINY404-SSNR,Microchip Technology,ATTINY404-SSNR,"AVR tinyAVR™ 0, Functional Safety (FuSa) Microcontroller IC 8-Bit 20MHz 4KB (4K x 8) FLASH 14-SOIC",http://ww1.microchip.com/downloads/en/DeviceDoc/50002687A.pdf
