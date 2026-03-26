@@ -2,6 +2,9 @@
 # This is a script to build the 6 button Mega Drive controller PCB firmware.
 # You need avr-gcc version 8 or later and avr-libc installed to build this code.
 
+# The hex file in this repo was built using release v15.2.0 from
+#   https://github.com/modm-io/avr-gcc/
+
 # Exit on error, unset variables, catch errors behind a pipe
 set -euo pipefail
 
